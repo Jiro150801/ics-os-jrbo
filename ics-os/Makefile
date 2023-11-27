@@ -65,3 +65,6 @@ boot-debug:
 
 boot-livecd:
 	qemu-system-i386 -cdrom ics-os-livecd.iso -boot cd -m 64M
+
+boot-floppy-alternative:
+	qemu-system-i386 -fda ics-os-floppy.img -curses
